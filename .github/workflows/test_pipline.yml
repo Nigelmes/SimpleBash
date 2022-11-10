@@ -8,7 +8,8 @@ jobs:
      steps:
       - name: Build Cat and Grep
         run: |
-          cd s21_cat
-          make
-          cd ../s21_grep
-          make
+          echo "${pwd}"
+#          cd s21_cat
+#          make
+#          cd ../s21_grep
+#          make

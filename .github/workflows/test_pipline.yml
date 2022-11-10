@@ -11,5 +11,5 @@ jobs:
         run: |
            cd s21_cat
            make
-#          cd ../s21_grep
-#          make
+           cd ../s21_grep
+           make

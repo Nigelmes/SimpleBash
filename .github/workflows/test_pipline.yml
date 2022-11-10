@@ -6,10 +6,10 @@ jobs:
   build:
      runs-on: ubuntu-22.04
      steps:
+      - uses: actions/checkout@v1
       - name: Build Cat and Grep
         run: |
-          echo "${pwd}"
-#          cd s21_cat
-#          make
+           cd s21_cat
+           make
 #          cd ../s21_grep
 #          make

@@ -7,4 +7,8 @@ jobs:
      runs-on: ubuntu-22.04
      steps:
       - name: Build Cat and Grep
-        run: ls
+        run: |
+          cd s21_cat
+          make
+          cd ../s21_grep
+          make

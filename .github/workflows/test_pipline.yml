@@ -1,0 +1,13 @@
+#Тестовый пайплайн
+
+name: TEST_CI/CD
+
+on: [push]
+
+jobs: 
+   build:
+     runs-on: ubuntu-latest
+     
+     steps:
+      - name: Print
+      - run: echo "Hello" 

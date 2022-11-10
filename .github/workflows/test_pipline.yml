@@ -1,5 +1,3 @@
-#Тестовый пайплайн
-
 name: TEST_CI/CD
 
 on: [push]

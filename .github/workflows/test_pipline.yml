@@ -6,5 +6,6 @@ jobs:
   build:
      runs-on: ubuntu-22.04
      steps:
-      - name: Print
-        run: echo "Hello" 
+      - name: Build Cat and Grep
+        run: ls
+            cd s21_cat

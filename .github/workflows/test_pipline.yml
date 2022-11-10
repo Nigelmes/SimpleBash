@@ -7,5 +7,5 @@ jobs:
      runs-on: ubuntu-22.04
      steps:
       - name: Build Cat and Grep
-        run: ls
-            cd s21_cat
+        run: ls;
+             cd s21_cat;

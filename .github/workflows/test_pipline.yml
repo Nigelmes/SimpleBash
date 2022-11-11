@@ -15,6 +15,7 @@ jobs:
            make
   test:
     runs-on: ubuntu-22.04
+    needs: [build]
     steps:
       - uses: actions/checkout@v1
       - name: Test Cat and Grep

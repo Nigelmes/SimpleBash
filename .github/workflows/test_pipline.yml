@@ -13,3 +13,14 @@ jobs:
            make
            cd ../s21_grep
            make
+  test:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v1
+      - name: Test Cat and Grep
+         run: |
+           cd s21_cat
+           make test
+           cd ../s21_grep
+           make test
+           ls -la

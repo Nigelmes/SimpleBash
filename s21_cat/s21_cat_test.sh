@@ -1,7 +1,7 @@
 #!bin/bash
 errors=0
 
-./s21_cat s21_cat.c > s21_cat.txt
+./s21_cat -e -n s21_cat.c > s21_cat.txt
 cat s21_cat.c > cat.txt
 echo [1]
 if [ -z "$(diff -q s21_cat.txt cat.txt)" ]; then

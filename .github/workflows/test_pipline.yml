@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Test Cat and Grep
-         run: |
+        run: |
            cd s21_cat
            make test
            cd ../s21_grep
